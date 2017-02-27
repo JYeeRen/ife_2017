@@ -1,0 +1,31 @@
+input[type='checkbox'], input[type='radio'] {
+  display: none;
+}
+
+input[type='checkbox']+label {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(./icon_checkbox_radio.png);
+  background-position: -25px -33px;
+}
+
+label span {
+  margin-left: 25px;
+}
+
+input[type='checkbox']:checked+label {
+  background-position: -60px -32px;
+}
+input[type='radio']+label {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(./icon_checkbox_radio.png);
+  background-position: -24px -10px;
+}
+input[type='radio']:checked+label {
+  background-position: -59px -10px;
+}
