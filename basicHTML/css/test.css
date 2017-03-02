@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 0 auto;
+  width: 980px;
+  height: 1386px;
+}
+header {
+  margin: 0 auto;
+  width: 892px;
+  height: 61px;
+  background-color: yellow;
+  border-bottom: 2px solid #000000;
+}
+#logo {
+  height: 61px;
+  width: 110px;
+  display: inline-block;
+  background-color: #ec5a74;
+}
+#logo, time {
+  font-size: 
+}
